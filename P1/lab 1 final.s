@@ -37,9 +37,6 @@ __MAIN
 loop
 	SUBS 		R0, #1 ; Decrement r0 and set the N,Z,C status bits
 	
-	; 	Approximately five lines of code
-	; 	are required to complete the program 
-	
 	BNE 		loop ; dec. the counter until counter isnt = 0
 					 ; when counter = 0, perform the lines below:
 		
